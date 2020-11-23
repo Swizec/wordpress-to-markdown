@@ -24,8 +24,10 @@ Export your Wordpress to XML then:
 ```
     $ git clone https://github.com/Swizec/wordpress-to-markdown
 
-    # download your wordpress xml
-    # change filename on convert.js line 27
+    $ cd wordpress-to-markdown
+
+    # download your wordpress xml (into the same folder, above)
+    # change .xml filename on line 25 of convert.js
 
     $ yarn
     $ yarn convert
